@@ -1,9 +1,9 @@
 +++
-title = "Mambuco's Blog"
-description = "I guess it's time to start writing..."
+title = "Thunder Network Blog"
+description = "Some of the last news..."
 sort_by = "date"
 template = "article_list.html"
-paginate_by = 10
+paginate_by = 25
 +++
 
-Welcome to my blog! Here I share my thoughts, tutorials, and experiences in the world of development. Feel free to explore and learn more about my work and interests.
+This could be the beginning of a travel into the future!
