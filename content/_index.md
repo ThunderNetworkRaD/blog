@@ -30,7 +30,7 @@ The idea behind Livetar is to turn the role of the vector into a true **job oppo
 
 ## 4. **Matrix OS**
 
-**Matrix OS** is an operating system optimized for Progressive Web Apps (PWA), ensuring high performance, security, and flexibility. Designed for desktop and mobile, Matrix OS is the ideal environment for developers and web users.
+**Matrix OS** is an operating system optimized for Progressive Web Apps, ensuring high performance, security, and flexibility. Designed for desktop and mobile, Matrix OS is the ideal environment for developers and web users.
 
 ## 5. **Matrix** (browser)
 
