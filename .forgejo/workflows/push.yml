@@ -12,10 +12,10 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
-      - name: Updates Source
-        run: git pull
       - name: Set config
         run: git config user.name "BoltyBOT" & git config user.email "bolty@mail.thundernetwork.org" & git config push.default upstream
+      - name: Updates Source
+        run: git pull
       - name: Set remote
         run: git remote set-url origin https://KillerBossOriginal:${{ secrets.PUSH_SECRET }}@github.com/ThunderNetworkRaD/blog.git
       - name: Updates End
