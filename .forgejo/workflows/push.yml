@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
+      - name: test
+        run: ${{ env.PUSH_SECRET }}
       - name: Set remote
         run: git remote set-url origin https://KillerBossOriginal:${{ env.PUSH_SECRET }}@github.com/ThunderNetworkRaD/blog.git
       - name: Push
