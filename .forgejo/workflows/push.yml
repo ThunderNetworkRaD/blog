@@ -13,6 +13,6 @@ jobs:
       - name: Checkout main
         uses: actions/checkout@v4
       - name: Set remote
-        run: git remote set-url origin https://${{ env.PUSH_SECRET }}@github.com/ThunderNetworkRaD/blog.git
+        run: git remote set-url origin https://KillerBossOriginal:${{ env.PUSH_SECRET }}@github.com/ThunderNetworkRaD/blog.git
       - name: Push
         run: git push https://github.com/ThunderNetworkRaD/blog
