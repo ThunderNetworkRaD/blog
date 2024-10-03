@@ -45,4 +45,4 @@ The idea behind Livetar is to turn the role of the vector into a true **job oppo
 We are also creating dedicated servers for popular games such as **Minecraft**, **Roblox**, and **FiveM** (GTA V), offering unique and customized gaming spaces for our community.
 
 ## Blog
-Check out [the last news](@/blog/_index.md).
+Check out [the last news](@/blog/_index.md)
