@@ -1,0 +1,16 @@
+name: Send to GitHub
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Push to github
+    runs-on: docker
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+      - name: Push
+        run: git push https://github.com/ThunderNetworkRaD/blog
