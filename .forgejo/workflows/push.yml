@@ -19,4 +19,4 @@ jobs:
       - name: Set remote
         run: git remote set-url origin https://KillerBossOriginal:${{ secrets.PUSH_SECRET }}@github.com/ThunderNetworkRaD/blog.git
       - name: Push
-        run: git push https://github.com/ThunderNetworkRaD/blog
+        run: git push
